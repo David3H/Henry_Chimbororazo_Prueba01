@@ -1,32 +1,29 @@
 package com.example.henry_chimborazo;
 
+
 import android.app.Activity;
 import android.content.Intent;
-import android.widget.TextView;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivitySecond extends AppCompatActivity {
 
-    private TextView textViewTitle;
+    private EditText editTextTextName;
+    private EditText editTextTextApellid;
 
-    ActivityResultLauncher<Intent> activityResult = registerForActivityResult(
-            new ActivityResultContracts.StartActivityForResult(),
-            new ActivityResultCallback<ActivityResult>() {
-                @Override
-                public void onActivityResult(ActivityResult result) {
-                    //comprobar si la ventana hija(ThisActivity) se cerro correctamente
-
-                    if (result.getResultCode() == Activity.RESULT_OK){
-                        Intent data = result.getData();
-                        textViewTitle.setText(data.getDataString());
-                    }
-                }
-            });
-
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
 
 }

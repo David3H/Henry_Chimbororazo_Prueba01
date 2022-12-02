@@ -10,21 +10,16 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button buttonCerrar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        buttonCerrar = findViewById(R.id.buttonCerrar);
-
-        buttonCerrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // mostrar una segunda pantalla
-                Intent sigiente = new Intent(MainActivity.this, MainActivitySecond.class);
-
-                startActivity(sigiente);
-            }
-        });
     }
+
+    public void Sigiente(View view){
+        Intent sigiente = new Intent(this, MainActivitySecond.class);
+        startActivity(sigiente);
+    }
+
 }
