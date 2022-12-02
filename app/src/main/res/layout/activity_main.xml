@@ -11,44 +11,53 @@
         android:id="@+id/textView_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nombre:" />
+        android:text="Nombre:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextNombre"
         android:layout_width="match_parent"
         android:layout_height="53dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:text="Name" />
 
     <TextView
         android:id="@+id/textViewApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apellido:" />
+        android:text="Apellido:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextApellido"
         android:layout_width="match_parent"
         android:layout_height="53dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:text="Name" />
 
     <TextView
         android:id="@+id/textViewDividendo"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="Dividendo:" />
+        android:text="Dividendo:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextDividendo"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:minHeight="48dp"
         android:text="Name" />
 
@@ -56,14 +65,17 @@
         android:id="@+id/textViewDivisor"
         android:layout_width="match_parent"
         android:layout_height="25dp"
-        android:text="Divisor:" />
+        android:text="Divisor:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextDivisor"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:minHeight="48dp"
         android:text="Name" />
 
@@ -71,14 +83,17 @@
         android:id="@+id/textViewEntera"
         android:layout_width="match_parent"
         android:layout_height="37dp"
-        android:text="Parte Entera:" />
+        android:text="Parte Entera:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextEntera"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:minHeight="48dp"
         android:text="Name" />
 
@@ -86,14 +101,17 @@
         android:id="@+id/textViewResiduo"
         android:layout_width="match_parent"
         android:layout_height="34dp"
-        android:text="Residuo:" />
+        android:text="Residuo:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextResiduo"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:minHeight="48dp"
         android:text="Name" />
 
@@ -101,14 +119,17 @@
         android:id="@+id/textViewInverso"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="Número inverso:" />
+        android:text="Número inverso:"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editTextTextInverso"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
         android:minHeight="48dp"
         android:text="Name" />
 
